@@ -1,0 +1,1 @@
+{"name":"business-jpzsd-frontend","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview"},"dependencies":{"@vitejs/plugin-vue":"latest","vite":"latest","vue":"latest"},"devDependencies":{}}

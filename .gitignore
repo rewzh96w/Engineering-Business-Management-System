@@ -1,0 +1,39 @@
+# Dependencies and generated frontend files
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Local toolchains and caches
+.cache/
+.pnpm-store/
+.tools/
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Local business data and generated artifacts
+outputs/
+workbook_previews_before/
+*.xlsx
+*.xls
+*.csv
+*.inspect.ndjson
+build_subcontract_claim_register.mjs
+inspect_workbook.mjs
+style_contract_ledger.mjs
+verify_contract_ledger.mjs
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
